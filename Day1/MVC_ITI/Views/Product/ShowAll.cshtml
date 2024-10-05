@@ -1,0 +1,12 @@
+﻿<table class="table table-bordered">
+    @foreach (Product mdl in Model)//List<Product>
+    {
+        <tr>
+            <td>@mdl.Name</td>
+            <td>@mdl.Price</td>
+            <td><img src="/Images/@mdl.Image" style="width:100px"/></td>
+            <td><a href="/Product/Details/@mdl.Id">Details</a></td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|c:\\users\\roaa\\source\\repos\\mvc_itiday2\\controllers\\statemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|solutionrelative:controllers\\statemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|c:\\users\\roaa\\source\\repos\\mvc_itiday2\\controllers\\passdataacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|solutionrelative:controllers\\passdataacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|c:\\users\\roaa\\source\\repos\\mvc_itiday2\\views\\passdataa\\testviewdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|solutionrelative:views\\passdataa\\testviewdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|c:\\users\\roaa\\source\\repos\\mvc_itiday2\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|c:\\users\\roaa\\source\\repos\\mvc_itiday2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|c:\\users\\roaa\\source\\repos\\mvc_itiday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|c:\\users\\roaa\\source\\repos\\mvc_itiday2\\viewmodel\\employeewithmessageandbranchesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|solutionrelative:viewmodel\\employeewithmessageandbranchesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|c:\\users\\roaa\\source\\repos\\mvc_itiday2\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|solutionrelative:views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|c:\\users\\roaa\\source\\repos\\mvc_itiday2\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45685EB2-6BE3-4877-AECB-A249BD5A8EA6}|MVC_ITIday2.csproj|solutionrelative:models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-05T10:15:28.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeWithMessageAndBranchesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\ViewModel\\EmployeeWithMessageAndBranchesViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\EmployeeWithMessageAndBranchesViewModel.cs",
+              "ToolTip": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\ViewModel\\EmployeeWithMessageAndBranchesViewModel.cs",
+              "RelativeToolTip": "ViewModel\\EmployeeWithMessageAndBranchesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T06:54:40.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StateManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\Controllers\\StateManagementController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StateManagementController.cs",
+              "ToolTip": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\Controllers\\StateManagementController.cs",
+              "RelativeToolTip": "Controllers\\StateManagementController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T21:34:32.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PassDataaController.cs",
+              "DocumentMoniker": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\Controllers\\PassDataaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PassDataaController.cs",
+              "ToolTip": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\Controllers\\PassDataaController.cs",
+              "RelativeToolTip": "Controllers\\PassDataaController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T09:49:38.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "testViewData.cshtml",
+              "DocumentMoniker": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\Views\\PassDataa\\testViewData.cshtml",
+              "RelativeDocumentMoniker": "Views\\PassDataa\\testViewData.cshtml",
+              "ToolTip": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\Views\\PassDataa\\testViewData.cshtml",
+              "RelativeToolTip": "Views\\PassDataa\\testViewData.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T09:55:50.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwBoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T15:19:08.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T10:40:46.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T09:29:15.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Roaa\\source\\repos\\MVC_ITIday2\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "Models\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T08:42:37.943Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

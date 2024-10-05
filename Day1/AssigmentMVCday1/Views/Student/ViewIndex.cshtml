@@ -1,0 +1,14 @@
+﻿<table class="table table-bordered">
+    @foreach(Student std in Model)
+    {
+        <tr>
+            <td>@std.id</td>
+            <td>@std.name</td>
+            <td>@std.address</td>
+            <td><a href="/Student/Details/@std.id">Details</a></td>
+
+        </tr>
+
+    }
+
+</table>
