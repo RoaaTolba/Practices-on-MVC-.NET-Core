@@ -1,0 +1,70 @@
+﻿@model Instructor
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<form method="post" action="/Instructor/SaveEdit/@Model.Id">
+
+    <div>
+        <label>Name</label>
+        <input type="text" name="Name" value="@Model.Name" class="form-control" />
+    </div>
+
+    <div>
+        <label>Image</label>
+        <input type="text" name="Image" value="@Model.Image" class="form-control" />
+    </div>
+
+    <div>
+        <label>Address</label>
+        <input type="text" name="Address" value="@Model.Address" class="form-control" />
+    </div>
+
+    <div>
+        <label>Salary</label>
+        <input type="number" name="Salary" value="@Model.Salary" class="form-control" />
+    </div>
+
+    <div>
+        <label>Department</label>
+        <select name="dep_id" id="dep_id" class="form form-control">
+            @foreach (Department depItem in ViewBag.deptList)
+            {
+                if (Model.dep_id == depItem.Id)
+                {
+                    <option value="@depItem.Id" selected>@depItem.Name</option>
+                }
+                else
+                {
+                    <option value="@depItem.Id">@depItem.Name</option>
+                }
+            }
+        </select>
+    </div>
+
+    <div>
+        <label>Course</label>
+        <select name="crs_id" id="crs_id" class="form form-control">
+            @foreach (Course crsItem in ViewBag.crsList)
+            {
+                if (Model.crs_id == crsItem.Id)
+                {
+                    <option value="@crsItem.Id" selected>@crsItem.Name</option>
+                }
+                else
+                {
+                    <option value="@crsItem.Id">@crsItem.Name</option>
+                }
+            }
+        </select>
+    </div>
+
+    <br />
+    <br />
+    <input type="submit" value="Add" class="btn btn-success" />
+    <br />
+    <br />
+
+</form>

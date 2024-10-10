@@ -1,0 +1,33 @@
+﻿@model List<Employee>
+@{
+    Layout = "_AdvLayout";
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<a asp-action="New" asp-controller="Employee">New</a>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td><a href="/Employee/Edit/@item.Id">Edit</a></td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>No employees found.</p>
+}
+
+@*  @section Scripts{
+     <script>
+         // it will appear on inspict
+         function fun() { }
+     </script>
+ } *@

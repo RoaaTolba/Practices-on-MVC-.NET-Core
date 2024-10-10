@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AssigmentMVCday2.props" />
+</Project>
