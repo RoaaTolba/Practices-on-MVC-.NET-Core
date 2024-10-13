@@ -1,0 +1,19 @@
+﻿@model StudentAndHisCourseWithDegree
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+
+
+@if(@Model.crsDegree>= @Model.minDegree)
+{
+    <h2 style="color:forestgreen">@Model.StudentId - @Model.StdName - @Model.CourseName - @Model.crsDegree</h2>
+}
+else
+{
+    <h2 style="color:darkred">@Model.StudentId - @Model.StdName - @Model.CourseName - @Model.crsDegree</h2>
+
+}
+

@@ -1,0 +1,45 @@
+﻿@model List<Department>
+@{
+    ViewData["Title"] = "ShowDept";
+    SelectList deptList = new SelectList(ViewBag.DeptList, "Id", "Name");
+}
+
+<h1>ShowDept</h1>
+<br />
+<br />
+
+<select name="dept" id="dept" class="form form-control" asp-items="deptList" onchange="GetCourses()">
+    <option value=0>-- Select Department --</option>
+</select>
+
+<br />
+<br />
+<br />
+<br />
+
+<h3>Courses</h3>
+<br />
+<select name="crs" id="crs" class="form form-control">
+
+    @section Scripts
+    {
+        <script>
+            function GetCourses() {
+                var deptId = document.getElementById("dept").value;
+                $.ajax({
+                    url: "/Department/GetCoursesPerDept",//?DeptId="+deptId,
+                    data: { "deptId": deptId },
+                    success: function (Result) {
+                        // $("$div1").html(Result);
+                        document.getElementById("crs").innerHTML = "";
+                        for (let crss of Result) {
+                            console.log(crss.name);
+                            document.getElementById("crs").innerHTML +=
+                                "<option value='" + crss.id + "'>" + crss.name + "</option>";
+                        }
+                    }
+                });
+            }
+        </script>
+    }
+</select>

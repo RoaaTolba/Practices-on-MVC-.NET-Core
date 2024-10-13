@@ -1,0 +1,37 @@
+﻿@model Course
+@{
+    ViewData["Title"] = "New";
+    SelectList deptList = new SelectList(ViewBag.deptList, "Id", "Name");
+}
+
+<h1>New</h1>
+
+<form asp-action="SaveNew" asp-controller="Course">
+
+    <div>
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name"  class="form-control" />
+    </div>
+
+    <div>
+        <label asp-for="Degree">Degree</label>
+        <input asp-for="Degree" class="form-control" />
+    </div>
+
+    <div>
+        <label asp-for="minDegree">Minimum Degree</label>
+        <input asp-for="minDegree" class="form-control" />
+    </div>
+
+    <div>
+        <label asp-for="dep_id">Department</label>
+        <select asp-for="dep_id" asp-items="deptList" class="form form-control"></select>
+    </div>
+
+    <br />
+    <br />
+    <input type="submit" value="Add" class="btn btn-success" />
+    <br />
+    <br />
+
+</form>

@@ -1,0 +1,65 @@
+﻿@model Employee
+@{
+    ViewData["Title"] = "New";
+    SelectList deptList = new SelectList(ViewBag.Department,"Id","Name");// cast from List<Department> to IEnum<selectedList>
+}
+
+<h1>New</h1>
+
+<form asp-action="SaveNew" asp-controller="Employee">
+    <div asp-validation-summary="All"></div>
+    <div>
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Address">Address</label>
+        <input asp-for="Address" class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+
+    </div>
+    <div>
+        <label asp-for="Salary">Salary</label>
+        <input asp-for="Salary" class="form-control" />
+        <span asp-validation-for="Salary" class="text-danger"></span>
+
+    </div>
+    <div>
+        <label asp-for="Image" >Image</label>
+         @* <input asp-for="Image" type="file" class="form-control" /> *@
+        <input asp-for="Image" class="form-control" />
+        <span asp-validation-for="Image" class="text-danger"></span>
+
+    </div>
+    <div>
+        <label asp-for="Dep_id">Department</label>
+
+        <select asp-for="Dep_id" asp-items="deptList" class="form form-control"></select>
+         @* <span asp-validation-for="Dep_id" class="text-bg-danger"></span> *@
+
+
+       @*  <select value="Dep_id" id="Dep_id" class="form form-control">
+            <option >
+                @foreach(Department item in ViewBag.Department)
+                {
+                    if (@Model.Dep_id == item.Id)
+                    {
+                        
+                        
+                    }
+                    else
+                    {
+                        
+                    }
+                }
+            </option>
+        </select> *@
+    </div>
+    <input type="submit" value="add" class="btn btn-success"/>
+</form>
+
+@* work with tag helper not pure html *@
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>

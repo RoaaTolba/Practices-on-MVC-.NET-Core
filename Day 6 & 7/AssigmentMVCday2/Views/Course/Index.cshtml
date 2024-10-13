@@ -1,0 +1,30 @@
+﻿@model List<Course>
+@{
+    Layout = "_AdvLayout";
+    ViewData["Title"] = "Index";
+}
+<h1>Index</h1>
+
+<table class="table table-bordered table-hover">
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Degree</td>
+        <td>minDegree</td>
+        <td>Department</td>
+        <td>Edit</td>
+    </tr>
+    <br />
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Degree</td>
+            <td>@item.minDegree</td>
+            <td>@item.dep_id</td>
+            <td><a href="/Course/Edit/@item.Id">Edit</a></td>
+        </tr>
+    }
+</table>
+<a href="/Course/New">New</a>

@@ -1,0 +1,39 @@
+﻿@model List<StudentAndHisCourseWithDegree>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <td>Id</td>
+        <td>StudentId</td>
+        <td>StudentName</td>
+        <td>CourseName</td>
+        <td>CourseDegree</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        @if (@item.crsDegree >= @item.minDegree)
+        {
+            <tr style="color:forestgreen">
+                <td>@item.Id</td>
+                <td>@item.StudentId</td>
+                <td>@item.StdName</td>
+                <td>@item.CourseName</td>
+                <td>@item.crsDegree</td>
+            </tr>
+        }
+        else
+        {
+            <tr style="color:darkred">
+                <td>@item.Id</td>
+                <td>@item.StudentId</td>
+                <td>@item.StdName</td>
+                <td>@item.CourseName</td>
+                <td>@item.crsDegree</td>
+            </tr>
+        }
+    }
+</table>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MVC_ITIday2.props" />
+</Project>

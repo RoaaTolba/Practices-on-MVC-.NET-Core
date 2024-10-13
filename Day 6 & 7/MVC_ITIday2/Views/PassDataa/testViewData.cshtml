@@ -1,0 +1,63 @@
+﻿
+@model EmployeeWithMessageAndBranchesViewModel
+@{
+    ViewData["Title"] = "testViewData";
+}
+
+<h1>testViewData</h1>
+
+
+
+@* <h3 style="background:@ViewData["color"]">Name: @Model.Name</h3>
+
+<h3 >Message: @ViewData["msge"]</h3>
+
+@((int)ViewData["temp"]+10)
+
+<br />
+<h3>ViewData</h3>
+<br />
+<select class="form-control">
+    @foreach(var item in (List<string>)ViewData["list"])
+    {
+        <option>@item</option>
+    }
+</select>
+<br />
+<br />
+<h3>ViewBag</h3>
+<br />
+<br />
+<select class="form-control">
+    @foreach(var item in ViewBag.list)
+    {
+        <option>@item</option>
+    }
+</select> *@
+
+<h3 style="background:@Model.Color">Name: @Model.EmpName</h3>
+
+<h3>Message: @Model.Message</h3>
+
+@(Model.Temp + 10)
+
+<br />
+<h3>ViewModel</h3>
+<br />
+<select class="form-control">
+    @foreach (var item in Model.Branches)
+    {
+        <option>@item</option>
+    }
+</select>
+@* <br />
+<br />
+<h3>ViewBag</h3>
+<br />
+<br />
+<select class="form-control">
+    @foreach (var item in ViewBag.list)
+    {
+        <option>@item</option>
+    }
+</select> *@
